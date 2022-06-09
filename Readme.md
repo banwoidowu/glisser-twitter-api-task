@@ -1,5 +1,3 @@
-# Glisser Technical Task - Banwo Idowu
-
 ## My approach
 
 In order to complete this task, I set up a REST API using Node.js and Express.
