@@ -44,7 +44,7 @@ from the original array, some form or sorting/organising logic would have to be 
 approach to fetching data. If one of those calls should fail, they all would. This may not always be the desired approach as partial success,
 at times, may be better than no results at all. However, for the current requirements, it works.
 
-##Technologies used
+## Technologies used
 - twitter-api-v2
 - redis
 - postgres
