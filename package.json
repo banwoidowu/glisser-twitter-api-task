@@ -1,0 +1,25 @@
+{
+  "name": "glisser-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startDev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "pg": "^8.7.3",
+    "redis": "^4.1.0",
+    "twitter-api-v2": "^1.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "prettier": "2.6.2"
+  }
+}
