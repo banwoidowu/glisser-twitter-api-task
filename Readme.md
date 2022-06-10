@@ -49,3 +49,8 @@ at times, may be better than no results at all. However, for the current require
 - moment.js
 - express.js
 - dotenv
+
+## Usage
+In order to use this service, you'll need credentials for the Twitter developer API. This includes an API Key, API Secret Key, Access Token and an Access Token Secret. This will allow you to authenticate with the Twitter developer API and make the necessary requests. You'll also need credentials and access to a Postgres database. The necessary DDL for setting up the required database schema can be found in the `ddl.sql` file in the root directory repo.
+
+All necessary keys and tokens can be applied in the `.env` file in the root directory.
