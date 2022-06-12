@@ -54,3 +54,5 @@ at times, may be better than no results at all. However, for the current require
 In order to use this service, you'll need credentials for the Twitter developer API. This includes an API Key, API Secret Key, Access Token and an Access Token Secret. This will allow you to authenticate with the Twitter developer API and make the necessary requests. You'll also need credentials and access to a running Postgres database. The necessary DDL for setting up the required database schema can be found in the `ddl.sql` file in the root directory repo. You'll also need to be running a local Redis cache on port 6379.
 
 All necessary keys and tokens can be applied in the `.env` file in the root directory.
+
+Once all of those have been set up and running, start the server using `npm run start`.
