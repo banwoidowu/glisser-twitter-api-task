@@ -32,7 +32,6 @@ const checkQueriesRunWithinLast15Minutes = async () => {
     const startTime = moment(now);
     const duration = moment.duration(endTime.diff(startTime));
     const minutes = parseFloat(duration.asMinutes().toFixed(1));
-    console.log(minutes);
 
     return {
       status: 429,
